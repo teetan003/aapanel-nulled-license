@@ -1,0 +1,319 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: MoMo Business Payment Gateway 1.0.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-01-01 00:00+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: momo-business-payment.php:57
+msgid "Settings"
+msgstr ""
+
+#: includes/class-wc-momo-business-gateway.php:24
+msgid "MoMo Business"
+msgstr ""
+
+#: includes/class-wc-momo-business-gateway.php:25
+msgid "Accept payments through MoMo Business payment gateway"
+msgstr ""
+
+#: includes/class-wc-momo-business-gateway.php:59
+msgid "Enable/Disable"
+msgstr ""
+
+#: includes/class-wc-momo-business-gateway.php:61
+msgid "Enable MoMo Business Payment Gateway"
+msgstr ""
+
+#: includes/class-wc-momo-business-gateway.php:64
+msgid "Title"
+msgstr ""
+
+#: includes/class-wc-momo-business-gateway.php:66
+msgid "This controls the title which the user sees during checkout."
+msgstr ""
+
+#: includes/class-wc-momo-business-gateway.php:67
+#: includes/class-wc-momo-business-gateway.php:400
+msgid "MoMo Business"
+msgstr ""
+
+#: includes/class-wc-momo-business-gateway.php:71
+msgid "Description"
+msgstr ""
+
+#: includes/class-wc-momo-business-gateway.php:73
+msgid "Payment method description that the customer will see on your checkout."
+msgstr ""
+
+#: includes/class-wc-momo-business-gateway.php:74
+msgid "Pay securely using MoMo eWallet."
+msgstr ""
+
+#: includes/class-wc-momo-business-gateway.php:78
+msgid "Test mode"
+msgstr ""
+
+#: includes/class-wc-momo-business-gateway.php:79
+msgid "Enable Test Mode"
+msgstr ""
+
+#: includes/class-wc-momo-business-gateway.php:81
+msgid "Place the payment gateway in test mode using test API keys."
+msgstr ""
+
+#: includes/class-wc-momo-business-gateway.php:85
+msgid "Partner Code"
+msgstr ""
+
+#: includes/class-wc-momo-business-gateway.php:87
+msgid "Your MoMo Business Partner Code"
+msgstr ""
+
+#: includes/class-wc-momo-business-gateway.php:92
+msgid "Access Key"
+msgstr ""
+
+#: includes/class-wc-momo-business-gateway.php:94
+msgid "Your MoMo Business Access Key"
+msgstr ""
+
+#: includes/class-wc-momo-business-gateway.php:99
+msgid "Secret Key"
+msgstr ""
+
+#: includes/class-wc-momo-business-gateway.php:101
+msgid "Your MoMo Business Secret Key"
+msgstr ""
+
+#: includes/class-wc-momo-business-gateway.php:106
+msgid "Test Endpoint"
+msgstr ""
+
+#: includes/class-wc-momo-business-gateway.php:108
+msgid "MoMo Business Test API Endpoint"
+msgstr ""
+
+#: includes/class-wc-momo-business-gateway.php:113
+msgid "Live Endpoint"
+msgstr ""
+
+#: includes/class-wc-momo-business-gateway.php:115
+msgid "MoMo Business Live API Endpoint"
+msgstr ""
+
+#: includes/class-wc-momo-business-gateway.php:120
+msgid "Debug log"
+msgstr ""
+
+#: includes/class-wc-momo-business-gateway.php:122
+msgid "Enable logging"
+msgstr ""
+
+#: includes/class-wc-momo-business-gateway.php:124
+msgid "Log MoMo Business events, such as API requests, inside %s Note: this may log personal information. We recommend using this for debugging purposes only and deleting the logs when finished."
+msgstr ""
+
+#: includes/class-wc-momo-business-gateway.php:148
+msgid "Order not found."
+msgstr ""
+
+#: includes/class-wc-momo-business-gateway.php:156
+msgid "Unable to create payment request."
+msgstr ""
+
+#: includes/class-wc-momo-business-gateway.php:167
+msgid "Awaiting MoMo payment confirmation."
+msgstr ""
+
+#: includes/class-wc-momo-business-gateway.php:180
+msgid "Payment initialization failed."
+msgstr ""
+
+#: includes/class-wc-momo-business-gateway.php:196
+msgid "Payment for order #%s"
+msgstr ""
+
+#: includes/class-wc-momo-business-gateway.php:340
+msgid "Thank you for your order, please click the button below to pay with MoMo."
+msgstr ""
+
+#: includes/class-wc-momo-business-gateway.php:357
+msgid "Refund of %s requested. Please process manually through MoMo Business portal. Reason: %s"
+msgstr ""
+
+#: includes/class-wc-momo-business-gateway.php:359
+msgid "Refunds must be processed manually through MoMo Business portal."
+msgstr ""
+
+#: includes/class-wc-momo-business-gateway.php:400
+msgid "Accept payments through MoMo Business payment gateway"
+msgstr ""
+
+#: includes/class-momo-callback-handler.php:29
+msgid "Invalid callback data"
+msgstr ""
+
+#: includes/class-momo-callback-handler.php:39
+#: includes/class-momo-callback-handler.php:104
+msgid "Invalid signature"
+msgstr ""
+
+#: includes/class-momo-callback-handler.php:45
+#: includes/class-momo-callback-handler.php:51
+#: includes/class-momo-callback-handler.php:96
+#: includes/class-momo-callback-handler.php:102
+msgid "Order not found"
+msgstr ""
+
+#: includes/class-momo-callback-handler.php:64
+msgid "Payment was not completed. Please try again."
+msgstr ""
+
+#: includes/class-momo-callback-handler.php:194
+msgid "MoMo payment amount mismatch. Expected: %s, Received: %s"
+msgstr ""
+
+#: includes/class-momo-callback-handler.php:204
+msgid "MoMo payment completed. Transaction ID: %s"
+msgstr ""
+
+#: includes/class-momo-callback-handler.php:229
+msgid "Payment failed"
+msgstr ""
+
+#: includes/class-momo-callback-handler.php:233
+msgid "MoMo payment failed. Error code: %s, Message: %s"
+msgstr ""
+
+#: includes/class-momo-callback-handler.php:272
+msgid "Success"
+msgstr ""
+
+#: includes/class-momo-callback-handler.php:273
+msgid "Your transaction is being processed"
+msgstr ""
+
+#: includes/class-momo-callback-handler.php:274
+msgid "Your transaction is failed"
+msgstr ""
+
+#: includes/class-momo-callback-handler.php:275
+msgid "Your transaction is expired"
+msgstr ""
+
+#: includes/class-momo-callback-handler.php:276
+msgid "Your transaction is rejected"
+msgstr ""
+
+#: includes/class-momo-callback-handler.php:277
+msgid "Your transaction is cancelled"
+msgstr ""
+
+#: includes/class-momo-callback-handler.php:278
+msgid "Your payment is failed"
+msgstr ""
+
+#: includes/class-momo-callback-handler.php:279
+msgid "Your payment is rejected"
+msgstr ""
+
+#: includes/class-momo-callback-handler.php:280
+msgid "Your payment is expired"
+msgstr ""
+
+#: includes/class-momo-callback-handler.php:281
+msgid "Your transaction is initiated"
+msgstr ""
+
+#: includes/class-momo-callback-handler.php:282
+msgid "Your transaction is processing"
+msgstr ""
+
+#: includes/class-momo-callback-handler.php:283
+msgid "Your transaction is pending"
+msgstr ""
+
+#: includes/class-momo-callback-handler.php:284
+msgid "Your transaction is waiting for confirmation"
+msgstr ""
+
+#: includes/class-momo-callback-handler.php:285
+msgid "Your transaction is paid"
+msgstr ""
+
+#: includes/class-momo-callback-handler.php:286
+msgid "Your transaction is processing refund"
+msgstr ""
+
+#: includes/class-momo-callback-handler.php:287
+msgid "Your transaction is refunded"
+msgstr ""
+
+#: includes/class-momo-callback-handler.php:288
+msgid "Order is invalid"
+msgstr ""
+
+#: includes/class-momo-callback-handler.php:289
+msgid "Amount is invalid"
+msgstr ""
+
+#: includes/class-momo-callback-handler.php:290
+msgid "OrderId is not existed"
+msgstr ""
+
+#: includes/class-momo-callback-handler.php:291
+msgid "Access is denied"
+msgstr ""
+
+#: includes/class-momo-callback-handler.php:292
+msgid "PartnerCode is invalid"
+msgstr ""
+
+#: includes/class-momo-callback-handler.php:293
+msgid "Signature is invalid"
+msgstr ""
+
+#: includes/class-momo-callback-handler.php:294
+msgid "Request is duplicated"
+msgstr ""
+
+#: includes/class-momo-callback-handler.php:295
+msgid "Order is not found"
+msgstr ""
+
+#: includes/class-momo-callback-handler.php:296
+msgid "Transaction is not found"
+msgstr ""
+
+#: includes/class-momo-callback-handler.php:297
+msgid "Your wallet balance is not enough"
+msgstr ""
+
+#: includes/class-momo-callback-handler.php:298
+msgid "Your transaction is failed"
+msgstr ""
+
+#: includes/class-momo-callback-handler.php:301
+msgid "Unknown error code: %s"
+msgstr ""
+
+#: assets/js/checkout.js:45
+msgid "Processing payment..."
+msgstr ""
+
+#: assets/js/checkout.js:46
+msgid "Redirecting to MoMo..."
+msgstr ""

@@ -1,0 +1,344 @@
+/* MoMo Business Payment Gateway Admin Styles */
+
+.momo-business-admin {
+    max-width: 100%;
+}
+
+/* Settings form styling */
+.momo-business-settings {
+    background: #fff;
+    border: 1px solid #ccd0d4;
+    border-radius: 4px;
+    padding: 20px;
+    margin: 20px 0;
+}
+
+.momo-business-settings h3 {
+    margin-top: 0;
+    color: #23282d;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.momo-business-settings .description {
+    color: #666;
+    margin-bottom: 20px;
+    font-style: italic;
+}
+
+/* Field styling */
+.momo-business-field {
+    margin-bottom: 20px;
+}
+
+.momo-business-field label {
+    display: block;
+    font-weight: 600;
+    margin-bottom: 5px;
+    color: #23282d;
+}
+
+.momo-business-field input[type="text"],
+.momo-business-field input[type="password"],
+.momo-business-field textarea {
+    width: 100%;
+    max-width: 400px;
+    padding: 8px 12px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 14px;
+}
+
+.momo-business-field input[type="text"]:focus,
+.momo-business-field input[type="password"]:focus,
+.momo-business-field textarea:focus {
+    border-color: #005cee;
+    box-shadow: 0 0 0 1px #005cee;
+    outline: none;
+}
+
+.momo-business-field .description {
+    margin-top: 5px;
+    color: #666;
+    font-size: 13px;
+    font-style: normal;
+}
+
+/* Test mode indicator */
+.momo-test-mode-indicator {
+    background: #fff3cd;
+    border: 1px solid #ffeaa7;
+    border-radius: 4px;
+    padding: 12px;
+    margin: 15px 0;
+    color: #856404;
+}
+
+.momo-test-mode-indicator:before {
+    content: "⚠️ ";
+    font-weight: bold;
+}
+
+/* Live mode indicator */
+.momo-live-mode-indicator {
+    background: #d1ecf1;
+    border: 1px solid #bee5eb;
+    border-radius: 4px;
+    padding: 12px;
+    margin: 15px 0;
+    color: #0c5460;
+}
+
+.momo-live-mode-indicator:before {
+    content: "🔒 ";
+    font-weight: bold;
+}
+
+/* Status indicators */
+.momo-status-enabled {
+    color: #28a745;
+    font-weight: 600;
+}
+
+.momo-status-disabled {
+    color: #dc3545;
+    font-weight: 600;
+}
+
+/* Connection test button */
+#momo-test-connection {
+    background: #007cba;
+    border-color: #007cba;
+    color: #fff;
+    text-decoration: none;
+    display: inline-block;
+    text-align: center;
+    vertical-align: middle;
+    cursor: pointer;
+    border: 1px solid transparent;
+    padding: 6px 12px;
+    font-size: 13px;
+    line-height: 1.5;
+    border-radius: 3px;
+    transition: all 0.2s ease-in-out;
+}
+
+#momo-test-connection:hover {
+    background: #005a87;
+    border-color: #005a87;
+}
+
+#momo-test-connection:disabled {
+    opacity: 0.6;
+    cursor: not-allowed;
+}
+
+/* Validation feedback */
+.validation-feedback {
+    display: block;
+    margin-top: 5px;
+    font-size: 12px;
+    line-height: 1.4;
+}
+
+.validation-feedback.error {
+    color: #dc3545;
+}
+
+.validation-feedback.success {
+    color: #28a745;
+}
+
+/* Advanced settings toggle */
+#momo-advanced-toggle {
+    color: #0073aa;
+    text-decoration: none;
+    font-size: 13px;
+}
+
+#momo-advanced-toggle:hover {
+    color: #005177;
+    text-decoration: underline;
+}
+
+/* MoMo branding */
+.momo-brand-header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    padding: 15px;
+    background: linear-gradient(135deg, #ae3ec9 0%, #9c88ff 100%);
+    border-radius: 8px;
+    color: white;
+}
+
+.momo-brand-header img {
+    height: 32px;
+    margin-right: 12px;
+}
+
+.momo-brand-header h2 {
+    margin: 0;
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+/* Settings tabs */
+.momo-settings-tabs {
+    border-bottom: 1px solid #ccd0d4;
+    margin-bottom: 20px;
+}
+
+.momo-settings-tabs ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+}
+
+.momo-settings-tabs li {
+    margin-right: 20px;
+}
+
+.momo-settings-tabs a {
+    display: block;
+    padding: 12px 0;
+    text-decoration: none;
+    color: #666;
+    border-bottom: 2px solid transparent;
+    transition: all 0.2s ease;
+}
+
+.momo-settings-tabs a:hover,
+.momo-settings-tabs a.active {
+    color: #ae3ec9;
+    border-bottom-color: #ae3ec9;
+}
+
+/* Info boxes */
+.momo-info-box {
+    background: #f8f9fa;
+    border: 1px solid #dee2e6;
+    border-left: 4px solid #ae3ec9;
+    padding: 15px;
+    margin: 15px 0;
+    border-radius: 0 4px 4px 0;
+}
+
+.momo-info-box h4 {
+    margin: 0 0 10px 0;
+    color: #495057;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.momo-info-box p {
+    margin: 0;
+    color: #6c757d;
+    font-size: 13px;
+    line-height: 1.5;
+}
+
+/* Success/Error messages */
+.momo-success-message {
+    background: #d4edda;
+    border: 1px solid #c3e6cb;
+    color: #155724;
+    padding: 12px;
+    border-radius: 4px;
+    margin: 15px 0;
+}
+
+.momo-error-message {
+    background: #f8d7da;
+    border: 1px solid #f5c6cb;
+    color: #721c24;
+    padding: 12px;
+    border-radius: 4px;
+    margin: 15px 0;
+}
+
+/* Loading spinner */
+.momo-loading {
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    border: 2px solid #f3f3f3;
+    border-top: 2px solid #ae3ec9;
+    border-radius: 50%;
+    animation: spin 1s linear infinite;
+    margin-right: 8px;
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+    .momo-business-field input[type="text"],
+    .momo-business-field input[type="password"],
+    .momo-business-field textarea {
+        max-width: 100%;
+    }
+    
+    .momo-brand-header {
+        flex-direction: column;
+        text-align: center;
+    }
+    
+    .momo-brand-header img {
+        margin-right: 0;
+        margin-bottom: 8px;
+    }
+    
+    .momo-settings-tabs ul {
+        flex-direction: column;
+    }
+    
+    .momo-settings-tabs li {
+        margin-right: 0;
+        margin-bottom: 5px;
+    }
+}
+
+/* Dark mode support */
+@media (prefers-color-scheme: dark) {
+    .momo-business-settings {
+        background: #1e1e1e;
+        border-color: #3c4043;
+        color: #e8eaed;
+    }
+    
+    .momo-business-settings h3 {
+        color: #e8eaed;
+    }
+    
+    .momo-business-field input[type="text"],
+    .momo-business-field input[type="password"],
+    .momo-business-field textarea {
+        background: #2d2d2d;
+        border-color: #5f6368;
+        color: #e8eaed;
+    }
+    
+    .momo-info-box {
+        background: #2d2d2d;
+        border-color: #5f6368;
+        color: #e8eaed;
+    }
+}
+
+/* Print styles */
+@media print {
+    .momo-business-admin {
+        color: #000;
+    }
+    
+    #momo-test-connection,
+    #momo-advanced-toggle {
+        display: none;
+    }
+}

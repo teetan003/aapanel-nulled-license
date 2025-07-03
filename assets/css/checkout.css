@@ -1,0 +1,379 @@
+/* MoMo Business Payment Gateway Checkout Styles */
+
+/* Payment method styling */
+.wc_payment_method.payment_method_momo_business {
+    border: 2px solid #e0e0e0;
+    border-radius: 8px;
+    margin: 10px 0;
+    padding: 15px;
+    transition: all 0.3s ease;
+    position: relative;
+}
+
+.wc_payment_method.payment_method_momo_business:hover {
+    border-color: #ae3ec9;
+    box-shadow: 0 2px 8px rgba(174, 62, 201, 0.1);
+}
+
+.wc_payment_method.payment_method_momo_business input[type="radio"]:checked + label {
+    color: #ae3ec9;
+    font-weight: 600;
+}
+
+/* MoMo logo styling */
+.momo-logo-small {
+    height: 20px;
+    width: auto;
+    margin-right: 8px;
+    vertical-align: middle;
+}
+
+/* Payment instructions */
+.momo-payment-instructions {
+    background: #f8f9fa;
+    border: 1px solid #dee2e6;
+    border-left: 4px solid #ae3ec9;
+    border-radius: 0 6px 6px 0;
+    padding: 20px;
+    margin: 15px 0;
+    animation: slideIn 0.3s ease-out;
+}
+
+@keyframes slideIn {
+    from {
+        opacity: 0;
+        transform: translateY(-10px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.momo-payment-info h4 {
+    margin: 0 0 15px 0;
+    color: #ae3ec9;
+    font-size: 16px;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+}
+
+.momo-payment-info p {
+    margin: 0 0 15px 0;
+    color: #6c757d;
+    line-height: 1.5;
+}
+
+.momo-payment-steps {
+    margin: 15px 0;
+    padding-left: 20px;
+    color: #495057;
+}
+
+.momo-payment-steps li {
+    margin: 8px 0;
+    position: relative;
+}
+
+.momo-payment-steps li:before {
+    content: "→";
+    color: #ae3ec9;
+    font-weight: bold;
+    position: absolute;
+    left: -20px;
+}
+
+.momo-security-note {
+    background: #e8f5e8;
+    border: 1px solid #c3e6cb;
+    border-radius: 4px;
+    padding: 10px;
+    margin-top: 15px;
+    color: #155724;
+    font-size: 13px;
+    display: flex;
+    align-items: center;
+}
+
+.momo-security-note .dashicons {
+    margin-right: 8px;
+    color: #28a745;
+}
+
+/* Processing overlay */
+.momo-processing-message {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.8);
+    z-index: 999999;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.momo-processing-content {
+    background: white;
+    padding: 40px;
+    border-radius: 12px;
+    text-align: center;
+    max-width: 400px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+}
+
+.momo-processing-content h4 {
+    margin: 20px 0 10px 0;
+    color: #ae3ec9;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.momo-processing-content p {
+    margin: 0;
+    color: #666;
+    font-size: 14px;
+}
+
+/* Spinner animation */
+.momo-spinner {
+    width: 40px;
+    height: 40px;
+    border: 4px solid #f3f3f3;
+    border-top: 4px solid #ae3ec9;
+    border-radius: 50%;
+    animation: spin 1s linear infinite;
+    margin: 0 auto;
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
+/* Payment method icon */
+.payment_method_momo_business img {
+    max-height: 24px;
+    width: auto;
+    margin-left: 10px;
+    vertical-align: middle;
+}
+
+/* Success/Error notices */
+.momo-notice {
+    border-radius: 6px;
+    padding: 15px;
+    margin: 15px 0;
+    border-left: 4px solid;
+    position: relative;
+}
+
+.momo-notice.woocommerce-info {
+    background: #d1ecf1;
+    border-left-color: #17a2b8;
+    color: #0c5460;
+}
+
+.momo-notice.woocommerce-error {
+    background: #f8d7da;
+    border-left-color: #dc3545;
+    color: #721c24;
+}
+
+.momo-notice.woocommerce-message {
+    background: #d4edda;
+    border-left-color: #28a745;
+    color: #155724;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+    .momo-payment-instructions {
+        padding: 15px;
+        margin: 10px 0;
+    }
+    
+    .momo-processing-content {
+        padding: 30px 20px;
+        margin: 20px;
+    }
+    
+    .momo-payment-steps {
+        padding-left: 15px;
+    }
+    
+    .momo-payment-steps li:before {
+        left: -15px;
+    }
+}
+
+@media (max-width: 480px) {
+    .momo-payment-info h4 {
+        font-size: 14px;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    
+    .momo-logo-small {
+        margin-right: 0;
+        margin-bottom: 5px;
+    }
+    
+    .momo-security-note {
+        font-size: 12px;
+        padding: 8px;
+    }
+}
+
+/* High contrast mode support */
+@media (prefers-contrast: high) {
+    .wc_payment_method.payment_method_momo_business {
+        border-color: #000;
+    }
+    
+    .momo-payment-instructions {
+        border-color: #000;
+        background: #fff;
+    }
+    
+    .momo-processing-message {
+        background: rgba(0, 0, 0, 0.9);
+    }
+}
+
+/* Reduced motion support */
+@media (prefers-reduced-motion: reduce) {
+    .momo-payment-instructions {
+        animation: none;
+    }
+    
+    .momo-spinner {
+        animation: none;
+        border: 4px solid #ae3ec9;
+    }
+    
+    .momo-payment-instructions,
+    .wc_payment_method.payment_method_momo_business {
+        transition: none;
+    }
+}
+
+/* Print styles */
+@media print {
+    .momo-processing-message,
+    .momo-spinner {
+        display: none !important;
+    }
+    
+    .momo-payment-instructions {
+        border: 1px solid #000;
+        background: white;
+    }
+}
+
+/* Focus styles for accessibility */
+.wc_payment_method.payment_method_momo_business input[type="radio"]:focus + label {
+    outline: 2px solid #ae3ec9;
+    outline-offset: 2px;
+}
+
+/* Loading state for place order button */
+#place_order.momo-loading {
+    position: relative;
+    color: transparent;
+}
+
+#place_order.momo-loading:before {
+    content: "";
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    top: 50%;
+    left: 50%;
+    margin-left: -8px;
+    margin-top: -8px;
+    border: 2px solid #ffffff;
+    border-top: 2px solid transparent;
+    border-radius: 50%;
+    animation: spin 1s linear infinite;
+}
+
+/* MoMo brand colors and gradients */
+.momo-gradient-bg {
+    background: linear-gradient(135deg, #ae3ec9 0%, #9c88ff 100%);
+}
+
+.momo-gradient-text {
+    background: linear-gradient(135deg, #ae3ec9 0%, #9c88ff 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+/* Checkout form enhancements */
+.checkout.woocommerce-checkout .payment_method_momo_business {
+    background: linear-gradient(135deg, #faf9ff 0%, #f3f0ff 100%);
+    border-color: #ae3ec9;
+}
+
+.checkout.woocommerce-checkout .payment_method_momo_business input[type="radio"]:checked + label:after {
+    content: "✓";
+    color: #ae3ec9;
+    font-weight: bold;
+    margin-left: 10px;
+}
+
+/* Status indicators */
+.momo-status-indicator {
+    display: inline-flex;
+    align-items: center;
+    padding: 4px 8px;
+    border-radius: 12px;
+    font-size: 12px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+.momo-status-indicator.pending {
+    background: #fff3cd;
+    color: #856404;
+}
+
+.momo-status-indicator.processing {
+    background: #cce7ff;
+    color: #004085;
+}
+
+.momo-status-indicator.completed {
+    background: #d4edda;
+    color: #155724;
+}
+
+.momo-status-indicator.failed {
+    background: #f8d7da;
+    color: #721c24;
+}
+
+/* Vietnam-specific styling */
+.momo-vietnam-flag {
+    display: inline-block;
+    width: 20px;
+    height: 14px;
+    background: linear-gradient(to bottom, #da020e 0%, #da020e 33%, #da020e 66%, #da020e 100%);
+    border-radius: 2px;
+    margin-right: 8px;
+    position: relative;
+}
+
+.momo-vietnam-flag:before {
+    content: "★";
+    position: absolute;
+    color: #ffff00;
+    font-size: 10px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
